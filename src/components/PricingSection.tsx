@@ -17,7 +17,7 @@ const PricingSection = () => {
                 Mentorías cuestan normalmente:
               </p>
               <p className="text-2xl sm:text-3xl font-bold text-anchor-foreground line-through">
-                $100 USD
+                € 100 EUR
               </p>
             </div>
             <div className="bg-anchor border border-anchor-foreground/20 p-4 sm:p-6 rounded-lg">
@@ -25,7 +25,7 @@ const PricingSection = () => {
                 Cursos de predicación superan los:
               </p>
               <p className="text-2xl sm:text-3xl font-bold text-anchor-foreground line-through">
-                $497 USD
+                € 297 EUR
               </p>
             </div>
           </div>
@@ -44,12 +44,12 @@ const PricingSection = () => {
             </p>
             
             <div className="text-center mb-4 sm:mb-6">
-              <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary">$9.00</span>
+              <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary">€ 9.00</span>
               <p className="text-sm sm:text-base lg:text-lg text-muted-foreground"></p>
             </div>
 
             <a
-              href="https://pay.hotmart.com/Q101290557Q?off=68usqxse&checkoutMode=10"
+              href="https://pay.hotmart.com/Q101290557Q?off=r11836qq&checkoutMode=10"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block w-full text-center text-base sm:text-lg lg:text-xl font-bold py-4 sm:py-6 mb-3 sm:mb-4 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300 ease-in-out transform hover:scale-105"
@@ -76,7 +76,7 @@ const PricingSection = () => {
           {/* Urgency Element */}
           <div className="bg-yellow-200 p-4 sm:p-6 rounded-r-lg max-w-2xl mx-auto mt-4">
             <p className="text-sm sm:text-base lg:text-lg font-semibold text-yellow-800 px-2">
-              ⚠️ <strong>PRECIO PROMOCIONAL:</strong> Esta oferta especial de $9.00 es por tiempo limitado.
+              ⚠️ <strong>PRECIO PROMOCIONAL:</strong> Esta oferta especial de € 9.00 es por tiempo limitado.
             </p>
           </div>
         </div>
