@@ -15,7 +15,7 @@ const FinalCTASection = () => {
         </p>
         
         <a
-          href="https://pay.hotmart.com/Q101290557Q?off=68usqxse&checkoutMode=10"
+          href="https://pay.hotmart.com/Q101290557Q?off=r11836qq&checkoutMode=10"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center w-full sm:w-auto text-lg font-bold py-4 px-8 border-2 border-yellow-600 bg-yellow-500 text-black rounded-lg shadow-md hover:bg-yellow-600 hover:text-white transition duration-300 ease-in-out transform hover:scale-105"
