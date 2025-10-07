@@ -6,7 +6,7 @@ const EmpathySection = () => {
       <div className="max-w-3xl mx-auto text-center">
         <Heart className="w-12 h-12 text-primary mx-auto mb-4 sm:mb-6" />
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6">
-          Je comprends exactement ce que tu ressens
+          Bonjour, femme de Dieu.
         </h2>
         <p className="text-base sm:text-lg leading-relaxed mb-4 sm:mb-6">
           Je sais exactement ce que tu ressens quand tu penses à monter sur l'estrade.
