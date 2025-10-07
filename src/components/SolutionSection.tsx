@@ -34,16 +34,16 @@ en une femme d'autorité qui changea le cours de l'histoire.
 
             <div className="grid grid-cols-1 gap-6">
   <div className="flex items-center justify-center">
-    <span className="font-bold text-xl text-purple-700 uppercase">Selección</span>
+    <span className="font-bold text-xl text-purple-700 uppercase">Sélection</span>
   </div>
   <div className="flex items-center justify-center">
-    <span className="font-bold text-xl text-purple-700 uppercase">Purificación</span>
+    <span className="font-bold text-xl text-purple-700 uppercase">Purification</span>
   </div>
   <div className="flex items-center justify-center">
-    <span className="font-bold text-xl text-purple-700 uppercase">Unción</span>
+    <span className="font-bold text-xl text-purple-700 uppercase">Onction</span>
   </div>
   <div className="flex items-center justify-center">
-    <span className="font-bold text-xl text-purple-700 uppercase">Entrega</span>
+    <span className="font-bold text-xl text-purple-700 uppercase">Livraison</span>
   </div>
 </div>
 
