@@ -2,44 +2,44 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "¿Esto es solo un e-book?",
+    question: "Est-ce seulement un livre électronique ?",
     answer:
-      "No, para nada. El Método Esther no es un PDF que descargas y olvidas. Es un área de miembros exclusiva con login y contraseña personal, donde tendrás acceso a todo el contenido en video, guías y materiales de apoyo.",
+      "Non, pas du tout. La méthode Esther n'est pas un PDF que vous téléchargez et oubliez. Il s'agit d'un espace membre exclusif accessible avec un identifiant et un mot de passe personnels, où vous aurez accès à tous les contenus vidéo, guides et supports pédagogiques.",
   },
   {
-    question: "¿Cómo accedo al contenido después de la compra?",
+    question: "Comment puis-je accéder au contenu après l'achat ?",
     answer:
-      "Es muy sencillo: 1) Una vez que compres en Hotmart, serás dirigida automáticamente a una página de bienvenida. 2) Allí verás un botón de registro para crear tu cuenta en la plataforma. 3) Con tu correo y contraseña, tendrás acceso inmediato al Método Esther. 4) ¡En minutos ya podrás comenzar tu proceso de transformación!",
+      "C'est très simple : 1) Une fois votre achat effectué sur Hotmart, vous serez automatiquement redirigée vers une page d'accueil. 2) Vous y trouverez un bouton d'inscription pour créer votre compte sur la plateforme. 3) Avec votre adresse e-mail et votre mot de passe, vous aurez immédiatement accès à la Méthode Esther. 4) En quelques minutes, vous pourrez commencer votre processus de transformation !",
   },
   {
-    question: "¿Necesito estudiar teología o tener experiencia previa?",
+    question: "Dois-je étudier la théologie ou avoir une expérience préalable ?",
     answer:
-      "¡No! El Método Esther fue diseñado para mujeres comunes que sienten el llamado de Dios, aunque nunca hayan predicado. Todo está explicado paso a paso, sin tecnicismos complicados ni años de teoría.",
+      "Non ! La méthode Esther a été conçue pour les femmes ordinaires qui ressentent l'appel de Dieu, même si elles n'ont jamais prêché. Tout est expliqué étape par étape, sans termes techniques compliqués ni années de théorie.",
   },
   {
-    question: "¿Y si no soy buena para hablar en público?",
+    question: "Et si je ne suis pas douée pour parler en public ?",
     answer:
-      "Justamente para eso es el Método Esther. Te damos estrategias anti-pánico y técnicas prácticas para que subas al púlpito con seguridad y sin miedo.",
+      "C'est précisément à cela que sert la méthode Esther. Nous vous proposons des stratégies anti-panique et des techniques pratiques pour que vous puissiez monter en chaire avec assurance et sans crainte.",
   },
   {
-    question: "¿Cuánto tiempo me tomará ver resultados?",
+    question: "Combien de temps faudra-t-il pour voir les résultats ?",
     answer:
-      "Depende de tu compromiso, pero la mayoría de nuestras alumnas sienten un cambio real en su confianza en menos de 7 días. Muchas predican su primer sermón en tan solo 2 semanas.",
+      "Cela dépend de votre engagement, mais la plupart de nos élèves ressentent un réel changement dans leur confiance en moins de 7 jours. Beaucoup prononcent leur premier sermon en seulement 2 semaines.",
   },
   {
-    question: "¿Y si no me funciona?",
+    question: "Et si cela ne fonctionne pas ?",
     answer:
-      "No corres ningún riesgo. Tienes 7 días de garantía incondicional. Si no ves avances en tu seguridad y preparación para predicar, simplemente pides tu reembolso y recuperas tu dinero al 100%.",
+      "Vous ne courez aucun risque. Vous bénéficiez d'une garantie inconditionnelle de 7 jours. Si vous ne constatez aucune amélioration en matière de sécurité et de préparation à la prédication, il vous suffit de demander votre remboursement et vous récupérerez 100 % de votre argent.",
   },
   {
-    question: "¿Puedo acceder desde mi celular?",
+    question: "Puis-je y accéder depuis mon téléphone portable ?",
     answer:
-      "Sí, claro. La plataforma está optimizada para que accedas desde tu computadora, tablet o celular, cuando y donde quieras.",
+      "Oui, bien sûr. La plateforme est optimisée pour que vous puissiez y accéder depuis votre ordinateur, votre tablette ou votre téléphone portable, quand et où vous le souhaitez.",
   },
   {
-    question: "¿Por qué cuesta solo $9?",
+    question: "Pourquoi coûte-t-il seulement 9 € ?",
     answer:
-      "Porque nuestra misión es alcanzar a la mayor cantidad de mujeres posibles. Queremos que nada te detenga, ni siquiera el precio. El valor que recibes aquí es equivalente a mentorías de cientos de dólares, pero hoy tienes acceso completo por menos de lo que cuesta una comida rápida.",
+      "Parce que notre mission est d'atteindre le plus grand nombre de femmes possible. Nous voulons que rien ne vous arrête, pas même le prix. La valeur que vous recevez ici équivaut à des mentorats de plusieurs centaines de dollars, mais aujourd'hui, vous avez un accès complet pour moins cher qu'un repas rapide.",
   },
 ];
 
