@@ -1,30 +1,40 @@
-import { Heart } from "lucide-react";
-
 const EmpathySection = () => {
   return (
-    <section className="py-12 sm:py-20 px-4 sm:px-6 lg:px-8 bg-accent/10">
-      <div className="max-w-3xl mx-auto text-center">
-        <Heart className="w-12 h-12 text-primary mx-auto mb-4 sm:mb-6" />
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6">
-          Bonjour, femme de Dieu.
-        </h2>
-        <p className="text-base sm:text-lg leading-relaxed mb-4 sm:mb-6">
-          Je sais exactement ce que tu ressens quand tu penses à monter sur l'estrade.
-          Ce mélange d'excitation et de peur qui te paralyse. Tu sais que Dieu t'a appelée,
-          mais chaque fois que tu imagines toutes ces personnes te regardant, ton coeur s'accélère
-          et une voix te dit : <em>"Et si je n'étais pas à la hauteur ?"</em>
-        </p>
-        <p className="text-base sm:text-lg leading-relaxed mb-4 sm:mb-6">
-          Tu n'es pas seule. Beaucoup de femmes ressentent ce même combat intérieur :
-          le désir ardent de servir Dieu d'un côté, et la peur de se tromper de l'autre.
-          Et souvent, cela les empêche d'avancer, les laissant avec ce sentiment
-          de frustration spirituelle.
-        </p>
-        <p className="text-base sm:text-lg leading-relaxed">
-          Mais laisse-moi te dire quelque chose : <strong>Dieu ne se trompe jamais dans ses choix.</strong>  
-          S'il t'a appelée, c'est parce qu'Il t'a équipée. Il veut seulement que tu apprennes à
-          canaliser ce feu intérieur et à trouver les mots justes pour toucher les coeurs.
-        </p>
+    <section className="pt-4 sm:pt-8 lg:pt-12 pb-8 sm:pb-12 lg:pb-16 px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto max-w-3xl">
+        <div className="text-center space-y-4 sm:space-y-6">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground">
+            Bonjour, femme de Dieu.
+          </h2>
+          
+          <div className="text-xl sm:text-base lg:text-lg text-muted-foreground leading-relaxed space-y-3 sm:space-y-4 px-2">
+            <p>
+              Je sais exactement ce que tu ressens quand tu penses à monter en chaire. 
+              Ce mélange d'excitation et de terreur qui te paralyse. Tu sais que Dieu t'a appelé, 
+              mais chaque fois que tu imagines tous ces gens qui te regardent, 
+              ton cœur s'emballe et ton esprit se vide.
+            </p>
+            
+            <p>
+              Tu restes éveillée la nuit à te demander: 
+              <em>"Et si je ne suis pas assez bonne ? Et si je me trompe ? Et si je n'ai pas l'onction nécessaire ?"</em>
+            </p>
+            
+            <p>
+              Je veux que tu saches une chose : <strong>tu n'es pas seule.</strong>
+            </p>
+          </div>
+
+          <div className="bg-accent border border-accent-foreground/20 p-4 sm:p-6 lg:p-8 rounded-lg">
+            <p className="text-xl sm:text-base lg:text-lg font-bold text-accent-foreground mb-3 sm:mb-4">
+              Au cours des dix dernières années, j'ai aidé plus de 2 000 femmes à découvrir leur vocation, 
+              à surmonter leur peur et à prêcher avec autorité.
+            </p>
+            <p className="text-base sm:text-lg lg:text-xl font-bold text-primary">
+              Aujourd'hui, tu peux être la prochaine.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
