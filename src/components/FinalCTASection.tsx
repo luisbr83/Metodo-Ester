@@ -6,26 +6,26 @@ const FinalCTASection = () => {
       <div className="container mx-auto max-w-4xl text-center text-yellow-900 space-y-6 sm:space-y-8">
         
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold">
-          Estás a un paso de desbloquear tu voz
+          Vous êtes à deux doigts de libérer votre voix
         </h2>
         
         <p className="text-base sm:text-lg lg:text-xl max-w-2xl mx-auto text-yellow-800 leading-relaxed">
-          Hoy puedes acceder al <strong>Método Esther</strong> con todos los bonos exclusivos
-          y comenzar tu transformación ministerial de inmediato.
+          Aujourd'hui, vous pouvez accéder à la <strong>Méthode Esther</strong> avec tous les bonus exclusifs
+et commencer immédiatement votre transformation ministérielle..
         </p>
         
         <a
-          href="https://pay.hotmart.com/Q101290557Q?off=r11836qq&checkoutMode=10"
+          href="https://pay.kiwify.com/eDRTXb4"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center w-full sm:w-auto text-lg font-bold py-4 px-8 border-2 border-yellow-600 bg-yellow-500 text-black rounded-lg shadow-md hover:bg-yellow-600 hover:text-white transition duration-300 ease-in-out transform hover:scale-105"
         >
-          ¡SÍ, QUIERO ACCEDER AHORA!
+          OUI, JE VEUX Y ACCÉDER MAINTENANT !
         </a>
 
         {/* Direitos reservados */}
         <p className="text-xs sm:text-sm text-muted-foreground mt-4">
-          © 2025 Método Esther. Todos los derechos reservados.
+          © 2025 Méthode Esther. Tous droits réservés.
         </p>
       </div>
     </section>
