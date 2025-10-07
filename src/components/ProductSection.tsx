@@ -4,7 +4,7 @@ import { Monitor, Tablet, Smartphone, CheckCircle } from "lucide-react";
 
 const ProductSection = () => {
   const benefits = [
-    <>Préparer un sermon <strong>en 30 minutes</strong>, même si vous ne l'avez jamais fait auparavant/>,
+    <>Préparer un sermon <strong>en 30 minutes</strong>, même si vous ne l'avez jamais fait auparavant</>,
     <>Monter en chaire <strong>sans crainte ni nervosité</strong> grâce à des techniques anti-panique</>,
     <>Avoir toujours un mot puissant pour <strong>toute occasion</strong></>,
     <>Être reconnue comme <strong>une femme de Dieu</strong> dotée d'autorité et de sagesse</>,
