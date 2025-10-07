@@ -1,36 +1,73 @@
-import { Lightbulb } from "lucide-react";
+import { Book, Crown } from "lucide-react"; // Removido Sparkles e Gift
 
 const SolutionSection = () => {
   return (
-    <section className="py-12 sm:py-20 px-4 sm:px-6 lg:px-8 bg-background">
-      <div className="max-w-4xl mx-auto text-center">
-        <Lightbulb className="w-12 h-12 text-primary mx-auto mb-4 sm:mb-6" />
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8">
-          Et si tu pouvais parler avec puissance et assurance ?
-        </h2>
+    <section className="pt-6 sm:pt-10 lg:pt-14 pb-6 sm:pb-8 lg:pb-10 px-4 bg-accent/20">
+      <div className="container mx-auto max-w-4xl">
+        <div className="text-center space-y-8">
+          {/* Ícone do livro */}
+          <div className="flex justify-center mb-6">
+            <div className="bg-primary p-4 rounded-full shadow-lg">
+              <Book className="w-8 h-8 text-primary-foreground" />
+            </div>
+          </div>
 
-        <p className="text-base sm:text-lg leading-relaxed mb-4 sm:mb-6">
-          Imagine-toi prêcher un message qui ne vient pas seulement de ta tête,
-          mais directement du coeur de Dieu. Tes mots ne sont pas simplement entendus,
-          ils <strong>touchent les coeurs</strong>, ils <strong>libèrent</strong> et <strong>guérissent</strong>.
-        </p>
+          {/* Título principal */}
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+            Le secret se trouve dans la Bible
+          </h2>
 
-        <p className="text-base sm:text-lg leading-relaxed mb-4 sm:mb-6">
-          Tu n'as pas besoin d'être parfaite, ni d'avoir étudié dans un séminaire.
-          Ce que Dieu cherche, c'est ton obéissance et ta disposition à apprendre à
-          communiquer Son message avec clarté, onction et authenticité.
-        </p>
+          {/* Estratégia da Rainha Ester */}
+          <div className="bg-primary/10 border border-primary/20 p-8 rounded-lg max-w-3xl mx-auto">
+            <div className="flex items-center justify-center mb-4">
+              <Crown className="w-8 h-8 text-primary mr-2" />
+              <h3 className="text-2xl font-bold text-primary">
+                La stratégie de la reine Esther
+              </h3>
+            </div>
 
-        <p className="text-base sm:text-lg leading-relaxed mb-4 sm:mb-6">
-          C'est exactement pour cela que le programme <strong>"Femmes Appelées par Dieu"</strong> existe :
-          pour t'aider à découvrir ta voix, ton autorité spirituelle et ta manière unique
-          d'annoncer la Parole.
-        </p>
+            <p className="text-lg text-foreground mb-6 leading-relaxed">
+              Lorsque Esther fut appelée à sauver son peuple, elle ne se lança pas sans préparation.
+Elle suivit un processus divin en quatre étapes qui la transforma d'une jeune fille ordinaire
+en une femme d'autorité qui changea le cours de l'histoire.
+            </p>
 
-        <p className="text-base sm:text-lg leading-relaxed">
-          À travers des enseignements simples, pratiques et inspirés, tu apprendras à préparer un message
-          en te laissant guider par le Saint-Esprit, même si tu n'as jamais prêché auparavant.
-        </p>
+            <div className="grid grid-cols-1 gap-6">
+  <div className="flex items-center justify-center">
+    <span className="font-bold text-xl text-purple-700 uppercase">Selección</span>
+  </div>
+  <div className="flex items-center justify-center">
+    <span className="font-bold text-xl text-purple-700 uppercase">Purificación</span>
+  </div>
+  <div className="flex items-center justify-center">
+    <span className="font-bold text-xl text-purple-700 uppercase">Unción</span>
+  </div>
+  <div className="flex items-center justify-center">
+    <span className="font-bold text-xl text-purple-700 uppercase">Entrega</span>
+  </div>
+</div>
+
+            {/* Revelación Divina sem ícone e sem borda */}
+            <div className="bg-highlight p-6 rounded-lg max-w-2xl mx-auto mt-8">
+              <div className="flex justify-center mb-2">
+                
+              </div>
+              <p className="text-lg font-semibold text-highlight-foreground">
+                Inspirée par cette stratégie divine, j'ai adapté chaque étape pour des femmes comme vous
+et j'ai créé la <strong>MÉTHODE ESTHER</strong>.
+              </p>
+            </div>
+
+            {/* Texto final */}
+            <div className="text-lg text-muted-foreground mt-6">
+              <p>
+                Ce n'est pas un hasard si cette méthode porte le nom d'Ester.
+Elle nous a montré que toute femme, quelle que soit son origine,
+peut devenir une voix faisant autorité lorsqu'elle suit le bon processus.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
