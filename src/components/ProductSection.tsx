@@ -4,39 +4,39 @@ import { Monitor, Tablet, Smartphone, CheckCircle } from "lucide-react";
 
 const ProductSection = () => {
   const benefits = [
-    <>Armar una predicación <strong>en 30 minutos</strong>, aunque nunca lo hayas hecho</>,
-    <>Subir al púlpito <strong>sin miedo ni nervios</strong> usando técnicas anti-pánico</>,
-    <>Tener siempre una palabra poderosa para <strong>cualquier ocasión</strong></>,
-    <>Ser reconocida como <strong>una mujer de Dios</strong> con autoridad y sabiduría</>,
-    <>Crecer espiritualmente con <strong>intimidad real</strong> con la Palabra</>,
-    <>Impactar vidas y <strong>transformar</strong> ambientes con tu voz</>,
-    <>Descubrir <strong>tu estilo único</strong> y construir tu identidad ministerial</>
+    <>Préparer un sermon <strong>en 30 minutes</strong>, même si vous ne l'avez jamais fait auparavant/>,
+    <>Monter en chaire <strong>sans crainte ni nervosité</strong> grâce à des techniques anti-panique</>,
+    <>Avoir toujours un mot puissant pour <strong>toute occasion</strong></>,
+    <>Être reconnue comme <strong>une femme de Dieu</strong> dotée d'autorité et de sagesse</>,
+    <>Grandir spirituellement grâce à une <strong>véritable intimité</strong> avec la Parole</>,
+    <>Influencer des vies et <strong>transformer</strong> des environnements grâce à votre voix</>,
+    <>Découvrez <strong>votre style unique</strong> et construisez votre identité ministérielle</>
   ];
 
   const bonusItems1 = [
-    "Una estructura clara para crear mensajes con fluidez e impacto.",
-    "Consejos para conectar cada punto del sermón con la Palabra de Dios.",
-    "Métodos para mantener la atención de la iglesia de principio a fin.",
-    "Ejemplos y modelos listos para que los adaptes y uses de inmediato.",
-    "Estrategias para que nunca más te bloquees al preparar una predicación."
+    "Une structure claire pour créer des messages fluides et percutants.",
+    "Conseils pour relier chaque point du sermon à la Parole de Dieu.",
+    "Méthodes pour maintenir l'attention de l'église du début à la fin.",
+    "Exemples et modèles prêts à être adaptés et utilisés immédiatement.",
+    "Stratégies pour ne plus jamais bloquer lors de la préparation d'un sermon."
   ];
 
   const bonusItems2 = [
-    "Una oración de conexión profunda para alinear tu corazón con Dios.",
-    "Claves para mantener un corazón puro y humilde antes de hablar.",
-    "Cómo asegurar que Cristo esté siempre en el centro de tu mensaje.",
-    "Ejercicios espirituales para activar paz y fortaleza interior.",
-    "El poder de un versículo ancla que sostenga tu predicación.",
-    "Técnicas para visualizar las almas siendo transformadas por tu voz.",
-    "Declaraciones de fe para entregar todo al Espíritu Santo."
+    "Une prière profonde pour aligner ton cœur avec Dieu.",
+    "Les clés pour garder un cœur pur et humble avant de parler.",
+    "Comment s'assurer que le Christ soit toujours au centre de votre message.",
+    "Exercices spirituels pour activer la paix et la force intérieure.",
+    "Le pouvoir d'un verset phare qui soutient votre prédication.",
+    "Techniques pour visualiser les âmes transformées par votre voix.",
+    "Déclarations de foi pour tout remettre au Saint-Esprit."
   ];
 
   const bonusItems3 = [
-    "Competencias esenciales para liderar con claridad y confianza.",
-    "Ejercicios de autodescubrimiento para identificar tus fortalezas y áreas de crecimiento.",
-    "Estrategias para entrenar y equipar a nuevas líderes en tu ministerio.",
-    "Planes de acción a corto y largo plazo para tu desarrollo ministerial.",
-    "Espacios de reflexión y herramientas prácticas para evaluar tu progreso."
+    "Compétences essentielles pour diriger avec clarté et confiance.",
+    "Exercices de découverte de soi pour identifier vos points forts et vos axes d'amélioration.",
+    "Stratégies pour former et équiper de nouvelles leaders dans votre ministère.",
+    "Plans d'action à court et à long terme pour votre développement ministériel.",
+    "Espaces de réflexion et outils pratiques pour évaluer vos progrès."
   ];
 
   return (
@@ -57,18 +57,18 @@ const ProductSection = () => {
           </div>
 
           <p className="text-xl sm:text-base md:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-2">
-            Es la <strong>primera guía práctica y espiritual</strong> que enseña a cualquier mujer 
-            a predicar con autoridad, sin años de estudio, sin miedo, y sin complicaciones.
+            C'est le <strong>premier guide pratique et spirituel</strong> qui enseigne à toute femme 
+            à prêcher avec autorité, sans années d'études, sans crainte et sans complications.
           </p>
 
           {/* Texto sobre Acceso a Todos los Dispositivos */}
           <div className="mt-10">
             <h3 className="text-2xl font-bold text-primary mb-4">
-              Acceso a Todos los Dispositivos
+              Accès à tous les appareils
             </h3>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-6">
-              Nuestra área de miembros ha sido desarrollada para ofrecer la máxima conveniencia y flexibilidad para ti. 
-              Ahora, puedes acceder a todo el contenido exclusivo desde cualquier lugar y en cualquier dispositivo:
+              Notre espace membre a été conçu pour vous offrir un maximum de commodité et de flexibilité. 
+  Vous pouvez désormais accéder à tout le contenu exclusif où que vous soyez et depuis n'importe quel appareil:
             </p>
           </div>
 
@@ -78,7 +78,7 @@ const ProductSection = () => {
               <div className="bg-accent p-4 sm:p-6 rounded-lg">
                 <Monitor className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 text-primary mx-auto mb-3 sm:mb-4" />
                 <p className="font-semibold text-accent-foreground text-sm sm:text-base">
-                  Acceso en Computadora
+                  Accès sur ordinateur
                 </p>
               </div>
             </div>
@@ -86,7 +86,7 @@ const ProductSection = () => {
               <div className="bg-accent p-4 sm:p-6 rounded-lg">
                 <Tablet className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 text-primary mx-auto mb-3 sm:mb-4" />
                 <p className="font-semibold text-accent-foreground text-sm sm:text-base">
-                  Disponible en Tablet
+                  Disponible sur tablette
                 </p>
               </div>
             </div>
@@ -94,7 +94,7 @@ const ProductSection = () => {
               <div className="bg-accent p-4 sm:p-6 rounded-lg">
                 <Smartphone className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 text-primary mx-auto mb-3 sm:mb-4" />
                 <p className="font-semibold text-accent-foreground text-sm sm:text-base">
-                  Llévalo en tu Celular
+                  Emportez-le dans votre téléphone portable
                 </p>
               </div>
             </div>
@@ -112,7 +112,7 @@ const ProductSection = () => {
           {/* Content Overview */}
           <div className="bg-card border border-border p-4 sm:p-6 lg:p-8 rounded-lg">
             <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-card-foreground mb-4 sm:mb-6">
-              En solo 3 módulos, aprenderás a:
+              En seulement 3 modules, vous apprendrez à:
             </h3>
             
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 sm:gap-4">
@@ -139,15 +139,15 @@ const ProductSection = () => {
             <div className="max-w-xl mx-auto">
               <img
                 src="https://i.imgur.com/0J72exD.png"
-                alt="Bono Exclusivo - Guía de Preparación de Sermones"
+                alt="Bon exclusif - Guide de préparation des sermons"
                 className="w-64 h-80 object-cover mx-auto rounded-lg shadow"
               />
             </div>
 
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Imagina que, además del <strong>Método Esther</strong>, tengas en tus manos una guía 
-              práctica y espiritual que te muestre paso a paso cómo preparar sermones impactantes que 
-              toquen profundamente el corazón de tu audiencia.
+              Imaginez qu'en plus de la <strong>méthode Esther</strong>, vous ayez entre les mains un guide 
+              pratique et spirituel qui vous montre étape par étape comment préparer des sermons percutants qui 
+              toucheront profondément le cœur de votre auditoire.
             </p>
 
             <div className="bg-card border border-border p-4 rounded-lg text-left space-y-3">
@@ -165,9 +165,9 @@ const ProductSection = () => {
             <div className="bg-primary/10 border border-primary p-4 rounded-lg">
               <p className="text-primary font-semibold">💡 ¿Por qué este bono es tan valioso?</p>
               <p className="text-muted-foreground">
-                Muchas mujeres que reciben el llamado a predicar todavía se sienten inseguras al preparar 
-                su contenido, y eso frena todo el proceso. Con esta guía, no solo sabrás <strong>qué decir</strong>, 
-                sino <strong>cómo decirlo</strong> con unción y claridad.
+                Beaucoup de femmes qui reçoivent l'appel à prêcher se sentent encore peu sûres d'elles lorsqu'elles préparent 
+                leur contenu, ce qui ralentit tout le processus. Grâce à ce guide, vous saurez non seulement <strong>quoi dire</strong>, 
+                mais aussi <strong>comment le dire</strong> avec onction et clarté.
               </p>
             </div>
           </div>
@@ -175,7 +175,7 @@ const ProductSection = () => {
           {/* Bonus 2 */}
           <div className="bg-accent/10 border border-accent p-6 sm:p-8 rounded-lg mt-10 space-y-6">
             <div className="flex items-center justify-center gap-2">
-              <h3 className="text-2xl font-bold text-black">BONIFICACIÓN ESPECIAL</h3>
+              <h3 className="text-2xl font-bold text-black">BONIFICATION SPÉCIALE</h3>
             </div>
 
             <div className="max-w-xl mx-auto">
@@ -187,12 +187,12 @@ const ProductSection = () => {
             </div>
 
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Imagina que, antes de cada predicación, pudieras tener en tus manos un checklist práctico y espiritual 
-              que te guíe para subir al púlpito con paz, seguridad y autoridad, dejando atrás los nervios y el temor.
+              Imaginez qu'avant chaque prédication, vous puissiez avoir entre les mains une checklist pratique et spirituelle 
+              qui vous guide pour monter en chaire avec paix, assurance et autorité, laissant derrière vous la nervosité et la peur.
             </p>
 
             <div className="bg-card border border-border p-4 rounded-lg text-left space-y-3">
-              <h4 className="text-lg font-bold text-card-foreground">Lo que encontrarás en este checklist:</h4>
+              <h4 className="text-lg font-bold text-card-foreground">Ce que vous trouverez dans cette checklist:</h4>
               <ul className="space-y-2">
                 {bonusItems2.map((item, idx) => (
                   <li key={idx} className="flex items-start">
@@ -204,23 +204,23 @@ const ProductSection = () => {
             </div>
 
             <div className="bg-primary/10 border border-primary p-4 rounded-lg">
-              <p className="text-primary font-semibold">💡 ¿Por qué este bono es tan valioso?</p>
+              <p className="text-primary font-semibold">💡 Pourquoi ce bon est-il si précieux ?</p>
               <p className="text-muted-foreground">
-                Muchas mujeres llegan al púlpito con el mensaje preparado, pero sin la preparación espiritual adecuada. 
-                Este checklist te recordará los pasos divinos de Ester para predicar con confianza, autoridad y unción, 
-                asegurando que no subas sola, sino acompañada por la presencia de Dios.
+                Beaucoup de femmes montent en chaire avec un message préparé, mais sans la préparation spirituelle adéquate. 
+                Cette liste de contrôle vous rappellera les étapes divines suivies par Esther pour prêcher avec confiance, autorité et onction, 
+                vous assurant de ne pas monter seule, mais accompagnée de la présence de Dieu.
               </p>
             </div>
 
             <p className="text-muted-foreground">
-              ✨ Hoy, al activar tu acceso al <strong>Método Esther</strong>, lo recibes completamente <strong>GRATIS</strong>.
+              ✨ Aujourd'hui, en activant votre accès à la <strong>Méthode Esther</strong>, vous la recevez entièrement <strong>GRATUITEMENT</strong>.
             </p>
           </div>
 
           {/* Bonus 3 */}
           <div className="bg-accent/10 border border-accent p-6 sm:p-8 rounded-lg mt-10 space-y-6">
             <div className="flex items-center justify-center gap-2">
-              <h3 className="text-2xl font-bold text-black">BONIFICACIÓN PREMIUM</h3>
+              <h3 className="text-2xl font-bold text-black">BONIFICATION PREMIUM</h3>
             </div>
 
             <div className="max-w-xl mx-auto">
@@ -232,8 +232,8 @@ const ProductSection = () => {
             </div>
 
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Imagina que, además del <strong>Método Esther</strong>, tengas un plan diseñado especialmente para ayudarte 
-              a crecer como líder en el ministerio, fortalecer tus dones y guiar con sabiduría a otras mujeres en su llamado.
+              Imaginez qu'en plus de la <strong>méthode Esther</strong>, vous disposiez d'un plan spécialement conçu pour vous aider 
+              à grandir en tant que leader dans le ministère, à renforcer vos dons et à guider avec sagesse d'autres femmes dans leur vocation.
             </p>
 
             <div className="bg-card border border-border p-4 rounded-lg text-left space-y-3">
@@ -251,13 +251,13 @@ const ProductSection = () => {
             <div className="bg-primary/10 border border-primary p-4 rounded-lg">
               <p className="text-primary font-semibold">💡 ¿Por qué este bono es tan valioso?</p>
               <p className="text-muted-foreground">
-                Muchas mujeres sienten el llamado a liderar, pero no saben cómo estructurar su crecimiento ni cómo multiplicar líderes. 
-                Con este plan, tendrás una guía clara, práctica y espiritual para avanzar con propósito, humildad y autoridad.
+                Beaucoup de femmes ressentent l'appel à diriger, mais ne savent pas comment structurer leur croissance ni comment multiplier les leaders. 
+                Grâce à ce plan, vous disposerez d'un guide clair, pratique et spirituel pour avancer avec détermination, humilité et autorité.
               </p>
             </div>
 
             <p className="text-muted-foreground text-center">
-              ✨ Hoy, al activar tu acceso al <strong>Método Esther</strong>, también recibes este plan completamente <strong>GRATIS</strong>.
+              ✨ Aujourd'hui, en activant votre accès à la <strong>Méthode Esther</strong>, vous recevez également ce programme entièrement <strong>GRATUITEMENT</strong>.
             </p>
           </div>
         </div>
