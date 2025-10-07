@@ -2,7 +2,7 @@ import { X } from "lucide-react";
 
 const WrongSolutionsSection = () => {
   const wrongSolutions = [
-    { title: "Suivez un cours d'art oratoire", reason: "raison : « Technique vide de sens, sans pouvoir spirituel »" },
+    { title: "Suivez un cours d'art oratoire", reason: "Technique vide de sens, sans pouvoir spirituel" },
     { title: "Il étudie la théologie pendant 5 ans.", reason: "Trop tard, trop de théorie" },
     { title: "Rechercher des messages sur Internet", reason: "Des mots sans âme" },
     { title: "Entraînez-vous jusqu'à ce que vous y arriviez", reason: "Le chemin du traumatisme, pas celui de l'appel" },
