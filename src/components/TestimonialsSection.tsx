@@ -3,27 +3,27 @@ import { Star, Quote } from "lucide-react";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Mariana López",
-      location: "México",
-      text: "Llevaba 3 años sintiéndome llamada pero paralizada por el miedo. Con el Método Esther, en 2 semanas ya estaba predicando con confianza. ¡Mi pastor no podía creerlo!",
+      name: "Camille",
+      location: "Canada",
+      text: "Pendant trois ans, je me sentais appelée, mais paralysée par la peur. Grâce à la méthode Esther, en deux semaines, je prêchais déjà avec assurance. Mon pasteur n'en croyait pas ses yeux !",
       rating: 5
     },
     {
-      name: "Rosa María Gutiérrez",
-      location: "Colombia",
-      text: "Pensé que necesitaba estudiar teología para predicar. Este método me mostró que ya tenía todo lo necesario dentro de mí. Ahora predico todos los domingos.",
+      name: "Sophie",
+      location: "France",
+      text: "Je pensais que je devais étudier la théologie pour pouvoir prêcher. Cette méthode m'a montré que j'avais déjà tout ce qu'il fallait en moi. Maintenant, je prêche tous les dimanches.",
       rating: 5
     },
     {
-      name: "Carmen Rodríguez",
-      location: "España",
-      text: "Mi primera predicación después del curso fue tan poderosa que varias personas se acercaron para entregarle su vida a Cristo. ¡Gloria a Dios!",
+      name: "Alexia",
+      location: "Belgique",
+      text: "Ma première prédication après le cours a été si puissante que plusieurs personnes sont venues pour donner leur vie à Christ. Gloire à Dieu !",
       rating: 5
     },
     {
-      name: "Ana Patricia Silva",
-      location: "Argentina",
-      text: "El módulo sobre cómo manejar los nervios me cambió la vida. Antes temblaba al hablar, ahora predico con autoridad y unción.",
+      name: "Francine",
+      location: "France",
+      text: "Le module sur la gestion du trac a changé ma vie. Avant, je tremblais quand je parlais, maintenant je prêche avec autorité et onction.",
       rating: 5
     }
   ];
@@ -39,7 +39,7 @@ const TestimonialsSection = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center space-y-8 sm:space-y-12">
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-foreground px-2">
-            Testimonios de Mujeres que Ya Vivieron la Transformación
+            Témoignages de femmes qui ont déjà vécu la transformation
           </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
@@ -73,7 +73,7 @@ const TestimonialsSection = () => {
 
           <div className="bg-success-light border border-success/20 p-4 sm:p-6 rounded-lg max-w-2xl mx-auto">
             <p className="text-sm sm:text-base lg:text-lg font-semibold text-success-foreground px-2">
-              ¡Únete a más de 2,000 mujeres que ya están predicando con autoridad!
+              Rejoignez plus de 2 000 femmes qui prêchent déjà avec autorité !
             </p>
           </div>
         </div>
