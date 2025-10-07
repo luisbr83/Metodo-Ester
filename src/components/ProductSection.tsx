@@ -44,7 +44,7 @@ const ProductSection = () => {
       <div className="container mx-auto max-w-5xl">
         <div className="text-center space-y-8 sm:space-y-12">
           <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-foreground px-2">
-            ¿Qué es el <span className="text-primary">Método Esther</span>?
+            ¿Qu'est-ce que la <span className="text-primary">méthode Esther ?</span>?
           </h2>
 
           {/* Method Image */}
@@ -151,7 +151,7 @@ const ProductSection = () => {
             </p>
 
             <div className="bg-card border border-border p-4 rounded-lg text-left space-y-3">
-              <h4 className="text-lg font-bold text-card-foreground">Lo que encontrarás en esta guía:</h4>
+              <h4 className="text-lg font-bold text-card-foreground">Ce que vous trouverez dans ce guide:</h4>
               <ul className="space-y-2">
                 {bonusItems1.map((item, idx) => (
                   <li key={idx} className="flex items-start">
@@ -163,7 +163,7 @@ const ProductSection = () => {
             </div>
 
             <div className="bg-primary/10 border border-primary p-4 rounded-lg">
-              <p className="text-primary font-semibold">💡 ¿Por qué este bono es tan valioso?</p>
+              <p className="text-primary font-semibold">💡 Pourquoi ce bon est-il si précieux ?</p>
               <p className="text-muted-foreground">
                 Beaucoup de femmes qui reçoivent l'appel à prêcher se sentent encore peu sûres d'elles lorsqu'elles préparent 
                 leur contenu, ce qui ralentit tout le processus. Grâce à ce guide, vous saurez non seulement <strong>quoi dire</strong>, 
@@ -237,7 +237,7 @@ const ProductSection = () => {
             </p>
 
             <div className="bg-card border border-border p-4 rounded-lg text-left space-y-3">
-              <h4 className="text-lg font-bold text-card-foreground">Lo que encontrarás en este plan:</h4>
+              <h4 className="text-lg font-bold text-card-foreground">Ce que vous trouverez dans ce plan:</h4>
               <ul className="space-y-2">
                 {bonusItems3.map((item, idx) => (
                   <li key={idx} className="flex items-start">
@@ -249,7 +249,7 @@ const ProductSection = () => {
             </div>
 
             <div className="bg-primary/10 border border-primary p-4 rounded-lg">
-              <p className="text-primary font-semibold">💡 ¿Por qué este bono es tan valioso?</p>
+              <p className="text-primary font-semibold">💡 Pourquoi ce bon est-il si précieux ?</p>
               <p className="text-muted-foreground">
                 Beaucoup de femmes ressentent l'appel à diriger, mais ne savent pas comment structurer leur croissance ni comment multiplier les leaders. 
                 Grâce à ce plan, vous disposerez d'un guide clair, pratique et spirituel pour avancer avec détermination, humilité et autorité.
