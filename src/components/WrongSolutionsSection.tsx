@@ -2,10 +2,10 @@ import { X } from "lucide-react";
 
 const WrongSolutionsSection = () => {
   const wrongSolutions = [
-    { title: 'Suivez un cours d'art oratoire', reason: 'raison : « Technique vide de sens, sans pouvoir spirituel' },
-    { title: 'Il étudie la théologie pendant 5 ans.', reason: 'Trop tard, trop de théorie' },
-    { title: 'Rechercher des messages sur Internet', reason: 'Des mots sans âme' },
-    { title: 'Entraînez-vous jusqu'à ce que vous y arriviez', reason: 'Le chemin du traumatisme, pas celui de l'appel' },
+    { title: "Suivez un cours d'art oratoire", reason: "raison : « Technique vide de sens, sans pouvoir spirituel »" },
+    { title: "Il étudie la théologie pendant 5 ans.", reason: "Trop tard, trop de théorie" },
+    { title: "Rechercher des messages sur Internet", reason: "Des mots sans âme" },
+    { title: "Entraînez-vous jusqu'à ce que vous y arriviez", reason: "Le chemin du traumatisme, pas celui de l'appel" },
   ];
 
   return (
@@ -26,8 +26,8 @@ const WrongSolutionsSection = () => {
                   <X className="w-4 h-4 sm:w-5 sm:h-5 text-destructive-foreground" />
                 </div>
                 <span className="text-sm sm:text-base lg:text-lg font-medium text-foreground">
-  <strong className="text-red-700">"{solution.title}"</strong> – {solution.reason}
-</span>
+                  <strong className="text-red-700">"{solution.title}"</strong> – {solution.reason}
+                </span>
               </div>
             ))}
           </div>
