@@ -13,52 +13,52 @@ const GuaranteeSection = () => {
                 <Shield className="w-12 h-12 sm:w-16 sm:h-16 text-white" />
               </div>
               <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-yellow-800 text-yellow-100 px-3 sm:px-4 py-1 rounded-full text-xs sm:text-sm font-bold">
-                GARANTÍA
+                GARANTIE
               </div>
             </div>
           </div>
 
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-foreground px-2">
-            Garantía Incondicional de 7 Días
+            Garantie inconditionnelle de 7 jours
           </h2>
 
           <div className="bg-card border border-border p-4 sm:p-6 lg:p-8 rounded-lg max-w-3xl mx-auto">
             <div className="flex items-center justify-center mb-4 sm:mb-6">
               <Clock className="w-6 h-6 sm:w-8 sm:h-8 text-primary mr-2 sm:mr-3" />
               <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-primary">
-                PRUEBA SIN RIESGO
+                ESSAYEZ SANS RISQUE
               </h3>
             </div>
 
             <p className="text-sm sm:text-base lg:text-lg text-card-foreground leading-relaxed mb-4 sm:mb-6 px-2">
-              Estoy tan segura de que el <strong>Método Esther</strong> transformará 
-              tu ministerio, que te doy una garantía total de 7 días.
+              Je suis tellement convaincue que la <strong>méthode Esther</strong> transformera 
+              votre ministère que je vous offre une garantie totale de 7 jours.
             </p>
 
             <div className="space-y-3 sm:space-y-4 text-left max-w-2xl mx-auto">
               <div className="flex items-start">
                 <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-success mr-2 sm:mr-3 mt-1 flex-shrink-0" />
                 <p className="text-card-foreground text-sm sm:text-base">
-                  Si no sientes más confianza para predicar en 7 días...
+                  Si vous ne vous sentez pas plus confiant pour prêcher dans 7 jours...
                 </p>
               </div>
               <div className="flex items-start">
                 <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-success mr-2 sm:mr-3 mt-1 flex-shrink-0" />
                 <p className="text-card-foreground text-sm sm:text-base">
-                  Si no superas tus miedos al púlpito en 7 días...
+                  Si vous ne surmontez pas votre peur de la chaire en 7 jours...
                 </p>
               </div>
               <div className="flex items-start">
                 <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-success mr-2 sm:mr-3 mt-1 flex-shrink-0" />
                 <p className="text-card-foreground text-sm sm:text-base">
-                  Si no ves resultados prácticos en tu predicación en 7 días...
+                  Si vous ne voyez pas de résultats concrets dans votre prédication dans les 7 jours...
                 </p>
               </div>
             </div>
 
             <div className="bg-highlight border-l-4 p-4 sm:p-6 rounded-r-lg mt-4 sm:mt-6">
               <p className="text-base sm:text-lg lg:text-xl font-bold text-highlight-foreground text-center">
-                Te devolvemos el 100% de tu dinero, sin preguntas.
+                Nous vous remboursons 100 % de votre argent, sans poser de questions.
               </p>
             </div>
           </div>
