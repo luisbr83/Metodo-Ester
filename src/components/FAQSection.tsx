@@ -69,7 +69,7 @@ const FAQSection = () => {
     <section className="py-16 bg-white text-gray-800">
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-10">
-          Preguntas Frecuentes
+          Foire aux questions
         </h2>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
