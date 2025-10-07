@@ -44,7 +44,7 @@ const PricingSection = () => {
             </p>
             
             <div className="text-center mb-4 sm:mb-6">
-              <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary">€ 9.00</span>
+              <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary">9.00 €</span>
               <p className="text-sm sm:text-base lg:text-lg text-muted-foreground"></p>
             </div>
 
