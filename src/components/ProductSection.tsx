@@ -133,7 +133,7 @@ const ProductSection = () => {
           {/* Bonus 1 */}
           <div className="bg-accent/10 border border-accent p-6 sm:p-8 rounded-lg mt-10 space-y-6">
             <div className="flex items-center justify-center gap-2">
-              <h3 className="text-2xl font-bold text-black">BONIFICACIÓN EXCLUSIVA</h3>
+              <h3 className="text-2xl font-bold text-black">BONIFICATION EXCLUSIVE</h3>
             </div>
 
             <div className="max-w-xl mx-auto">
