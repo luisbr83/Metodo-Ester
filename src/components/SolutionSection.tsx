@@ -29,7 +29,7 @@ const SolutionSection = () => {
 
         <p className="text-base sm:text-lg leading-relaxed">
           À travers des enseignements simples, pratiques et inspirés, tu apprendras à préparer un message
-          en te laissant guider par le Saint-Esprit — même si tu n'as jamais prêché auparavant.
+          en te laissant guider par le Saint-Esprit, même si tu n'as jamais prêché auparavant.
         </p>
       </div>
     </section>
