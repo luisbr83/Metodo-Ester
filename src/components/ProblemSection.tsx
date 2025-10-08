@@ -57,7 +57,7 @@ const ProblemSection = () => {
               Alors que d'autres femmes montent en chaire avec assurance, 
               tu continues d'attendre le « moment idéal » qui n'arrive jamais. 
               Mais ce n'est pas parce qu'elles sont plus spéciales... 
-              <strong>es porque conocen algo que tú aún no.</strong>
+              <strong>fres parce qu'ils savent quelque chose que tu ne sais pas encore.</strong>
             </p>
           </div>
         </div>
