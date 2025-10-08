@@ -4,12 +4,12 @@ const faqs = [
   {
     question: "Est-ce seulement un livre électronique ?",
     answer:
-      "Non, pas du tout. La méthode Esther n'est pas un PDF que vous téléchargez et oubliez. Il s'agit d'un espace membre exclusif accessible avec un identifiant et un mot de passe personnels, où vous aurez accès à tous les contenus vidéo, guides et supports pédagogiques.",
+      "Non, pas du tout. La méthode Esther n'est pas un PDF que vous téléchargez et oubliez. Il s'agit d'un espace réservé aux membres, accessible avec un nom d'utilisateur et un mot de passe personnels, où vous aurez accès à tout le contenu.",
   },
   {
     question: "Comment puis-je accéder au contenu après l'achat ?",
     answer:
-      "C'est très simple : 1) Une fois votre achat effectué sur Hotmart, vous serez automatiquement redirigée vers une page d'accueil. 2) Vous y trouverez un bouton d'inscription pour créer votre compte sur la plateforme. 3) Avec votre adresse e-mail et votre mot de passe, vous aurez immédiatement accès à la Méthode Esther. 4) En quelques minutes, vous pourrez commencer votre processus de transformation !",
+      "C'est très simple : 1) Une fois votre achat effectué sur Kiwify, vous serez automatiquement redirigée vers une page d'accueil. 2) Vous y trouverez un bouton d'inscription pour créer votre compte sur la plateforme. 3) Avec votre adresse e-mail et votre mot de passe, vous aurez immédiatement accès à la Méthode Esther. 4) En quelques minutes, vous pourrez commencer votre processus de transformation !",
   },
   {
     question: "Dois-je étudier la théologie ou avoir une expérience préalable ?",
