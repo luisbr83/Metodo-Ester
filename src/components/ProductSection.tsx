@@ -138,7 +138,7 @@ const ProductSection = () => {
 
             <div className="max-w-xl mx-auto">
               <img
-                src="https://i.imgur.com/0dSUoAl.png"
+                src="https://i.imgur.com/CrzDizG.png"
                 alt="Bon exclusif - Guide de préparation des sermons"
                 className="w-64 h-80 object-cover mx-auto rounded-lg shadow"
               />
