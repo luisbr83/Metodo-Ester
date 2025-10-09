@@ -180,7 +180,7 @@ const ProductSection = () => {
 
             <div className="max-w-xl mx-auto">
               <img
-                src="https://i.imgur.com/hOcXFA2.png"
+                src="https://i.imgur.com/TfnUCDC.png"
                 alt="Checklist Pre-Predicación"
                 className="w-64 h-80 object-cover mx-auto rounded-lg shadow"
               />
