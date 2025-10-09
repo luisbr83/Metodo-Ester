@@ -225,7 +225,7 @@ const ProductSection = () => {
 
             <div className="max-w-xl mx-auto">
               <img
-                src="https://i.imgur.com/3hiGgJK.png"
+                src="https://i.imgur.com/2hF74fK.png"
                 alt="Plan de Desarrollo de Liderazgo Ministerial"
                 className="w-64 h-80 object-cover mx-auto rounded-lg shadow"
               />
