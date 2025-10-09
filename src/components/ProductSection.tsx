@@ -103,7 +103,7 @@ const ProductSection = () => {
           {/* Imagem da Área de Miembros */}
           <div className="max-w-3xl mx-auto mb-10">
             <img
-              src="https://i.imgur.com/7NXjVnB.gif"
+              src="https://i.imgur.com/ij1sgu6.gif"
               alt="Área de Miembros"
               className="w-full max-h-[500px] object-contain rounded-lg"
             />
