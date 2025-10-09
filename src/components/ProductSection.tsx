@@ -50,7 +50,7 @@ const ProductSection = () => {
           {/* Method Image */}
           <div className="max-w-2xl mx-auto">
             <img
-              src="https://i.imgur.com/jKPwAio.png"
+              src="https://i.imgur.com/1XCSdWk.png"
               alt="Guía visual del Método Esther"
               className="w-full max-h-[500px] object-contain rounded-lg mx-auto"
             />
