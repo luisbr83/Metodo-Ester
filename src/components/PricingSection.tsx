@@ -49,7 +49,7 @@ const PricingSection = () => {
             </div>
 
             <a
-              href="https://pay.kiwify.com/eDRTXb4"
+              href="https://pay.hotmart.com/G103298728Q?off=l72xblvs&checkoutMode=10"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block w-full text-center text-base sm:text-lg lg:text-xl font-bold py-4 sm:py-6 mb-3 sm:mb-4 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300 ease-in-out transform hover:scale-105"
