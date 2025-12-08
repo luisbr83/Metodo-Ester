@@ -17,7 +17,7 @@ const PricingSection = () => {
                 Les mentorats coûtent généralement :
               </p>
               <p className="text-2xl sm:text-3xl font-bold text-anchor-foreground line-through">
-                € 100 USD
+                $ 100 USD
               </p>
             </div>
             <div className="bg-anchor border border-anchor-foreground/20 p-4 sm:p-6 rounded-lg">
@@ -25,7 +25,7 @@ const PricingSection = () => {
                 Les cours de prédication dépassent les :
               </p>
               <p className="text-2xl sm:text-3xl font-bold text-anchor-foreground line-through">
-                € 497 USD
+                $ 497 USD
               </p>
             </div>
           </div>
@@ -44,7 +44,7 @@ const PricingSection = () => {
             </p>
             
             <div className="text-center mb-4 sm:mb-6">
-              <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary">$9.00</span>
+              <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary">US$ 9.00</span>
               <p className="text-sm sm:text-base lg:text-lg text-muted-foreground"></p>
             </div>
 
@@ -76,7 +76,7 @@ const PricingSection = () => {
           {/* Urgency Element */}
           <div className="bg-yellow-200 p-4 sm:p-6 rounded-r-lg max-w-2xl mx-auto mt-4">
             <p className="text-sm sm:text-base lg:text-lg font-semibold text-yellow-800 px-2">
-              ⚠️ <strong>PRIX PROMOTIONNEL :</strong> cette offre spéciale à $ 9,00 est valable pour une durée limitée.
+              ⚠️ <strong>PRIX PROMOTIONNEL :</strong> cette offre spéciale à US$ 9,00 est valable pour une durée limitée.
             </p>
           </div>
         </div>
