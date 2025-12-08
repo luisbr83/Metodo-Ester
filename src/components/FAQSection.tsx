@@ -37,7 +37,7 @@ const faqs = [
       "Oui, bien sûr. La plateforme est optimisée pour que vous puissiez y accéder depuis votre ordinateur, votre tablette ou votre téléphone portable, quand et où vous le souhaitez.",
   },
   {
-    question: "Pourquoi coûte-t-il seulement 9 € ?",
+    question: "Pourquoi coûte-t-il seulement US$ 9.00 ?",
     answer:
       "Parce que notre mission est d'atteindre le plus grand nombre de femmes possible. Nous voulons que rien ne vous arrête, pas même le prix. La valeur que vous recevez ici équivaut à des mentorats de plusieurs centaines de dollars, mais aujourd'hui, vous avez un accès complet pour moins cher qu'un repas rapide.",
   },
