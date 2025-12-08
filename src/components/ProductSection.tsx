@@ -44,7 +44,7 @@ const ProductSection = () => {
       <div className="container mx-auto max-w-5xl">
         <div className="text-center space-y-8 sm:space-y-12">
           <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-foreground px-2">
-            ¿Qu'est-ce que la <span className="text-primary">méthode Esther ?</span>?
+            ¿Qu'est-ce que la <span className="text-primary">Méthode Esther ?</span>?
           </h2>
 
           {/* Method Image */}
