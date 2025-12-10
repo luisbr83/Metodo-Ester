@@ -3,7 +3,7 @@ import { DollarSign, Clock, Shield } from "lucide-react";
 
 const PricingSection = () => {
   return (
-    <section id="oferta" className="py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 bg-accent/20">
+    <section id="offre" className="py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 bg-accent/20">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center space-y-6 sm:space-y-8">
           <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-foreground px-2">
